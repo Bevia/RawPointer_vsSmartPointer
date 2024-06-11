@@ -23,3 +23,7 @@ std::unique_ptr<Pointers> smartPtr = std::make_unique<Pointers>(42);
         std::unique_ptr<Pointers> smartPtr = std::make_unique<Pointers>(42);
         to this
         std::unique_ptr<Pointers> smartPtr(new Pointers(42));
+
+### To run it:
+#### step 1 - g++ -std=c++14 -o pointers_example pointers_example.cpp
+#### step 2 - ./pointers_example   
